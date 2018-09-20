@@ -4,8 +4,6 @@
 
 using namespace std;
 
-// 0, 0, 187
-
 // Local prototypes 
 void displayPoint( Point2D pt );
 void displayPoint( Point3D pt );

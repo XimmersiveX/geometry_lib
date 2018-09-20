@@ -1,6 +1,5 @@
 #include "../include/geometry_lib.h"
 #include <cmath>
-#include <algorithm>
 
 int makePoint(double X, double Y, Point2D *pt) 
 {
@@ -33,7 +32,6 @@ bool almostEqual(double d1, double d2){
 }
 
 // Collinear Functions
-// 2D
 double collinear(Point2D pt1, Point2D pt2, Point2D pt3)
 {
     double AC, AB, BC, sum1, sum2, sum3;
@@ -58,6 +56,5 @@ double collinear(Point2D pt1, Point2D pt2, Point2D pt3)
 
 double perimLength(Point2D pt1, Point2D pt2, Point2D pt3, Point2D pt4)
 {
-    return distance(pt1, pt2) + distance(pt2, pt3) + distance(pt3, pt4);
+    return distance(pt1, pt2) + distance(pt2, pt3) + distance(pt3, pt4) + distance(pt1, pt4);
 }
-// 3D

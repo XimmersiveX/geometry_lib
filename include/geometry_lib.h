@@ -23,4 +23,4 @@ double collinear(Point2D pt1, Point2D pt2, Point2D pt3);
 double perimLength(Point2D pt1, Point2D pt2, Point2D pt3, Point2D pt4);
 
 
-#endif  // __SPACE_LIB_H__
+#endif  // __GEOMETRY_LIB_H__
