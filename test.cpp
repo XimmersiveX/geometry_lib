@@ -1,5 +1,4 @@
 #include <iostream> 
-#include <vector>
 #include "include/geometry_lib.h"
 
 using namespace std;
